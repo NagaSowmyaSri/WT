@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.semester-list {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 0;
+}
+
+.semester-list li {
+    font-size: 30px;
+    color: #555;
+    padding: 10px 0;
+ 
+}
+
+.semester-list li:last-child {
+    border-bottom: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#reference-books {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    
+    
+   
+}
+
+#reference-books h2 {
+    font-size: 1.8rem;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#reference-books ul {
+    list-style-type: square;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+#reference-books li {
+    font-size: 1rem;
+    padding: 8px 0;
+    line-height: 1.5;
+}
+
+#reference-books li::before {
+    content: "📘";
+    color: #337ab7;
+    padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+    #reference-books {
+        padding: 10px;
+    }
+    
+    #reference-books h2 {
+        font-size: 1.5rem;
+    }
+    
+    #reference-books ul {
+        padding-left: 20px;
+    }
+    
+    #reference-books li {
+        font-size: 0.9rem;
+    }
+}
